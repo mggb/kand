@@ -1,0 +1,78 @@
+.container-annonce{
+  margin: 0 100px 0 100px;
+  width: 81%;
+  background-color: white;
+  border-radius: 40px;
+  border: grey 4px solid;
+  padding: 20px;
+}
+
+ p{
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.header p:first-child{
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+.header-annonce{
+  display: flex;
+}
+.footer-annonce{
+  display: flex;
+}
+.footer-annonce p{
+  margin-right: 40px;
+}
+.bouton{
+  display: flex;
+  padding: 10px;
+}
+ .edit{
+   width: 100px;
+   height: 50px;
+   background:white;
+   border: green 2px solid;
+   color: black;
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 30px;
+   transition: ease 0.4s;
+   cursor: pointer;
+
+ }
+ .edit:hover{
+   background:green;
+   color: white;
+ }
+ .delete{
+   transition: ease 0.4s;
+   cursor: pointer;
+   margin-left: 15px;
+   width: 100px;
+   height: 50px;
+   background:white;
+   border: red 2px solid;
+   color: black;
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 30px;
+ }
+ .delete:hover{
+   background:red;
+   color: white;
+ }
+ .licorne{
+   display: block;
+ }
+ .licorne1{
+   display: block;
+   width: 60%;
+   line-height: 5px;
+ }
+ .licorne2{
+   display: block;
+   width: 20%;
+ }

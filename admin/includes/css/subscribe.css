@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("Roboto-Black.ttf") format("ttf");
+}
+
+
+.register{
+  height: 100vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex column;
+  font-family: 'Roboto';
+  background-color: #7EDCFE;
+}
+.image{
+
+}
+
+.title_subscribe{
+  margin-left: 38%;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+}
+
+.formone {
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.formone li{
+  list-style: none;
+}
+
+.formone input {
+  width: 30%;
+  height: 5vh;
+  margin: 1vh 8% 1vh 8%;
+  border-radius: 30px;
+  border: 2px solid black;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 1.5em;
+}
+
+.title_domaine {
+  margin-left: 42%;
+  font-size: 2em;
+  margin-top: 2vh;
+}
+
+.box {
+  width: 40%;
+  height: 5vh;
+  margin: 3vh 3% 1vh 3%;
+  font-size: 2em;
+  display: inline-block;
+}
+
+.checkboxSize {
+  margin-left: 15%;
+  width: 40px;
+  height: 40px;
+}
+
+.mdp {
+  margin-top: 1vh;
+}
+
+.mdp p {
+  width: 35%;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-left: 10%;
+}
+.title_inscription{
+  text-align: center;
+  font-size: 90px;
+}
+.img_inscription{
+  margin-left: 857px;
+}
